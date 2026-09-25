@@ -1,0 +1,76 @@
+    *{
+        box-sizing: border-box;
+        display:run-in;
+    }
+        body {background-image: url('/Web_project/assets/Background.jpg') ; 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 60px;
+        max-height: fit-content;
+        max-width:auto;
+        min-width: auto;
+        margin: 1rem;
+        justify-content: center;
+        align-items:center;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 0rem;
+        gap: 12px;
+        text-align-last:left;
+        text-justify: auto;
+    }
+    h1{
+        padding: 2px;
+        margin: auto;
+    }
+
+    button {
+        justify-content: center;
+        align-items:flex-end;
+        display: flexbox;
+    }
+    form input{
+        justify-content: center;
+        align-items:center;
+        display: flexbox;
+        }
+    input[type = text ]{
+        width: 15rem;
+        min-height: 2.2rem;
+        font-size:  14px;
+        border-radius: 30px;
+        padding: 0px 20px;
+        
+    }    
+
+        input[type = number ]{
+        width: 15rem;
+        min-height: 2.2rem;
+        font-size:  14px;
+        border-radius: 30px;
+        padding: 0px 20px;
+        min-width: fit-content 1px;
+    }    
+
+    input[type]:focus{
+        background-color: rgb(208, 208, 248);
+    }
+
+    a[href='/Web_project/assets/farm.jpg']{
+        color: white;
+    }
+
+    .Choice:active{
+        background-color: aqua;
+    }
+
+    input[type = checkbox]:checked{
+        accent-color: aqua;
+    }
+
+    #Click{
+        color: aqua;
+        background-color: red;
+    }
