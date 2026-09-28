@@ -20,6 +20,7 @@
         gap: 12px;
         text-align-last:left;
         text-justify: auto;
+        flex-wrap: wrap;
     }
     h1{
         padding: 2px;
@@ -30,6 +31,7 @@
         justify-content: center;
         align-items:flex-end;
         display: flexbox;
+        border-radius: 3px;
     }
     form input{
         justify-content: center;
