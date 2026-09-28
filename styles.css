@@ -2,7 +2,7 @@
         box-sizing: border-box;
         display:run-in;
     }
-        body {background-image: url('/Web_project/assets/Background.jpg') ; 
+        body {background-image: url('/Background.jpg') ; 
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-repeat: no-repeat;
         background-size: cover;
@@ -58,7 +58,7 @@
         background-color: rgb(208, 208, 248);
     }
 
-    a[href='/Web_project/assets/farm.jpg']{
+    a[href='/farm.jpg']{
         color: white;
     }
 
