@@ -23,16 +23,17 @@
       flex-wrap: wrap;
       justify-content: center;
       box-sizing: border-box;
-      text-align: center;
+      align-content: center;
       margin: 0.5px;
     }
 
     .food-card {
       padding: 30px ;
       display: flexbox;
-      padding-left: 1%;
       box-sizing: border-box;
       margin: 0.5px;
+      text-align: center;
+      flex-grow: 1;
     }
 
     .Cart {
@@ -43,7 +44,7 @@
       border-width: 4px;
       font-weight: bold;
       margin: 10px 0px 0px;
-      padding: right 18px;
+      padding: right 17px;
       padding-bottom: 10px;
       padding: 8px;
       box-shadow: 3px 3px 4px rgba(27, 27, 27, 0.5);
@@ -98,7 +99,7 @@
       <div class="food-card">
         <h3>Chicken Burger</h3>
         <p><img src="/Background.jpg" /></p>
-        <p title="₦6,500" style="font-family: fantasy; text-align: center">
+        <p title="₦6,500" style="font-family: fantasy;">
           ₦6,500
         </p>
         <a href="/chkbrg.html"
@@ -109,7 +110,7 @@
       <div class="food-card">
         <h3>Chicken Pizza</h3>
         <p><img src="/farm.jpg" /></p>
-        <p title="₦8000" style="font-family: fantasy; text-align: center">
+        <p title="₦8000" style="font-family: fantasy;">
           ₦8,000
         </p>
         <button class="Cart">Add to Cart</button>
@@ -118,7 +119,7 @@
       <div class="food-card">
         <h3>Fried Rice</h3>
         <p><img src="/images.jpg" /></p>
-        <p title="₦5,000" style="font-family: fantasy; text-align: center">
+        <p title="₦5,000" style="font-family: fantasy;">
           ₦5,000
         </p>
         <button class="Cart">Add to Cart</button>

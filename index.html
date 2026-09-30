@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <style>
-        html body{
+        body{
             padding: 0px;
             margin: 0px;
             width: 100%;
@@ -16,10 +16,22 @@
             background-image: url('Background.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            align-content: center;
             align-items: center;
             background-attachment: fixed;
-            
+            flex-grow: 1;
+        }
+
+        nav {
+            float: right;
+            display: flexbox;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: rgb(255, 253, 253);
+            flex: 1 0 100hv;
+            margin: 1px 1px;
+            padding: 9px 4px;
+            min-width: 100%;
+            align-items: center;
         }
 
         h1 {
@@ -30,22 +42,24 @@
             padding: 0px;
             
         }
-        sea {
-            float: right;
-            background-color: rgb(255, 253, 253);
-            
-            
-        }
         
         im {
-            position: relative;
             width: auto;
-            height:fit-content;
+            margin: auto;
+            min-height:fit-content;
             padding: 100px;
-            float:right;
             display: flex;
             justify-content: center;
             align-items: center;
+            box-sizing: border-box;
+        }
+
+        button {
+            min-height: 30px;
+            min-width: 0px;
+            color: black;
+            background-color: rgb(25, 147, 196);
+            border-radius: 13px;
         }
     
     </style>
@@ -57,15 +71,16 @@
     color:rgb(190, 223, 190); 
     font-size: 40px;">Welcome to Homepage
     </h1>
-    <sea >
-        <input type="search" placeholder="search" >
-            
-        <li><button><a href="Heaven.html">Home</a></button></li>
-        <li><button><a href="Heaven.html">About</a></button></li>
-        <li><button>Contact</button></li>
-    </sea>
+        
+
+    <nav>
+        <input id="Searchbar" type="search" placeholder="search" >
+        <button><a href="Heaven.html" style="color: black;">Home</a></button>
+        <button><a href="Heaven.html" style="color: black;">About</a></button>
+        <button>Contact</button>
+    </nav>
     <im>
-    <img src="/images.jpg" alt="image">
+        <img src="/images.jpg" alt="image">
     </im>
 
     <div>
